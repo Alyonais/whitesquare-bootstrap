@@ -1,0 +1,328 @@
+@import "bootstrap.less";
+@import "variables.less";
+
+p {
+ margin: 20px 0;
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+.btn {
+    font-family: @brand-font;
+}
+
+body {
+    border-top: 5px solid #7e7e7e;
+    background-image: url(../images/bg.png);
+    .wrapper {
+        padding: 0  0 50px 0;
+        
+        header {
+            padding: 20px 0;
+            
+            .form-search {
+                width: 200px;
+            }
+        }
+        
+        .navbar a {
+            text-transform: uppercase;
+            font: 14px @brand-font;
+        }
+        
+        .col-md-24 {
+            padding: 0;
+        }
+        
+        .banner {
+            position: relative;
+            
+            h2 {
+                position: absolute;
+                top: 0;
+                left: 0;
+                padding-left: 25px;
+                color: #5a5a5a;
+                font-weight: 100;
+                text-transform: uppercase;
+            }
+            
+            p {
+                position: absolute;
+                left: 0;
+                top: 25px;
+                padding-left: 25px;
+                color: #b0b0b0;
+            }
+        }
+        
+        .navbar-banner {
+            width: 100%;
+            
+            ul {
+                width: 100%;
+                background-color: #f3f3f3;
+                margin-bottom: 20px;
+
+                
+                li {
+                    padding-right: 15px;
+                    width: 25%;
+                    color: #8f8f8f;
+                    padding: 5px;  
+                    
+                    
+
+                    
+                   
+                    
+                    a {
+                        text-transform: uppercase;
+                        font-size: 15px;
+                        color: #8f8f8f;
+                        
+                        
+                    }
+                    
+                    &:nth-child(2) {
+                        background: url(../../www/images/second.png) no-repeat;
+                        background-position: 0px 10px;
+                        padding-left: 5px;
+                    }
+                    
+                    &:nth-child(3) {
+                        background: url(../../www/images/third.png) no-repeat;
+                        background-position: 0px 10px;
+                        padding-left: 5px;
+                    }
+                    
+                    &:nth-child(4) {
+                        background: url(../../www/images/fourth.png) no-repeat;
+                        background-position: 0px 10px;
+                        padding-left: 5px;
+                    }
+                }
+                
+                .active {
+                    a {
+                    color: @brand-primary;
+                        background: url(../../www/images/first.png) no-repeat;
+                        background-position: 10px 5px;
+                        padding-left: 40px;
+                    }
+                }
+                
+                 &:firs-child {
+                        padding-left: 15px;
+                    }
+                    
+                 &:last-child {
+                        padding-right: 0px;
+                    }
+            }
+            
+        }
+        
+        
+        
+        .row {
+            padding-bottom: 20px;
+            
+            .col-md-16 {
+                
+                p {
+                    height: 145px;
+                    overflow: visible;
+                    padding: 0;
+                    margin-top: 0;
+                    
+                    margin-bottom: -15px;
+                }
+                
+              
+            }
+
+            
+            .col-heading {
+                background: transparent url(../../www/images/h5-bg.png);
+                background-position: 20px 0;
+            
+            
+            h5 {
+                text-transform: uppercase;
+                font-weight: 600;
+                background: url(../../www/images/square.png) no-repeat;
+                margin-bottom: 15px;
+                background-position: 7px 0px;
+                padding-left: 30px;
+                
+                span {
+                    background: url(../../www/images/bg.png);
+                    padding: 0 10px;
+                }
+            }
+                
+                img {
+                    clear: none;
+                }
+                
+                p {
+                    text-align: justify;
+                }
+                
+                
+                
+        }
+            
+            .col-md-18 {
+                margin-top: -23px;           
+            }
+            
+            
+            
+            .team-caption {
+                font-size: 12px;
+
+            }
+            
+            .row {
+                padding-bottom: 0;
+                
+
+                
+                span {
+                    font-weight: 600;
+                    display: block;
+                    text-transform: uppercase;
+                }
+            }
+    
+        }
+        
+        .col-md-24 {
+            
+            .col-heading {
+                background: transparent url(../../www/images/h5-bg.png);
+                background-position: 20px 0;
+            
+            
+            h5 {
+                text-transform: uppercase;
+                font-weight: 600;
+                background: url(../../www/images/square.png) no-repeat;
+                margin-bottom: 15px;
+                background-position: 7px 0px;
+                padding-left: 30px;
+                
+                span {
+                    background: url(../../www/images/bg.png);
+                    padding: 0 10px;
+                }
+            }
+        }
+        }
+        
+        }
+    
+    footer {
+        background: #7e7e7e;
+        color: #dbdbdb;
+        font-size: 11px;
+        
+        .container {
+            height: 110px;
+            padding: 10px 0;
+            
+            h3 {
+                border-bottom: 1px solid #919191;
+                color: #ffffff;
+                font-size: 14px;
+                line-height: 21px;
+                font-family: @brand-font;
+                margin: 0 0 10px;
+                text-transform: uppercase;
+            }
+            
+            p {
+                margin: 5px 0;
+            }
+            
+            .twitter {
+                p {
+                    padding-right: 15px;
+                }
+                
+                time a {
+                    color: #b4aeae;
+                    text-decoration: underline;
+                }
+            }
+            
+            a {
+                color: #dbdbdb;
+            }
+            
+            .sitemap a {
+                display: block;
+                font-size: 12px;
+                margin-bottom: 5px;
+            }
+            
+            .social {
+                .social-icon {
+                    width: 32px;
+                    height: 32px;
+                    background: url(../images/social.png);
+                    display: inline-block;
+                }
+                
+                .social-icon + .social-icon {
+                    margin-left: 6px;
+                }
+                
+                .social-icon-small {
+                    width: 16px;
+                    height: 16px;
+                    background: url(../images/social-small.png);
+                    display: inline-block;
+                    margin: 5px 5.5px 0 0;
+                }
+                
+                .twitter { background-position: -65px 0; }
+                .facebook { background-position: 0 0; }
+                .google-plus { background-position: -32px 0; 
+                margin-right: 95px;}
+                
+                .vimeo {background-position: 0 0; }
+                .youtube { background-position: -17px 0; }
+                .flickr {background-position: -34px 0; }
+                .instagram { background-position: -51px 0; }
+                .rss { background-position: -68px 0; }
+            }
+            
+            .footer-logo {
+                float: right;
+                margin-top: 20px;
+                font-size: 10px;
+                text-align: right;
+                
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+    
+    
+        
+}
+
+
+
+        
+
+        
+    
+    
